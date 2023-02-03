@@ -26,7 +26,7 @@ function myfun(a,b,...c){
 }
 myfun(3,4,5,6,7,8,9);
 
-const addALL = (...nums)=>{
+const addALL = (...nums)=>{ 
     console.log(nums);
     console.log(Array.isArray(nums));
     let sum = 0;

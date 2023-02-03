@@ -49,10 +49,10 @@ function myapp(){
     const myvar = "hii";
     function myfun(){
         const myvar=59;
-        console.log("inside myfun",myvar);
+        console.log("inside myfun",myvar);//it will print 59
     }
     const fun2 = ()=>{
-        console.log("myvarianle is "+myvar);
+        console.log("myvarianle is "+myvar);//hiii will be printed
     }
     const fun3 = function(){
         
