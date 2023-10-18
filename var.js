@@ -5,3 +5,4 @@ firstname="Anu";
 console.log(firstname);
 var num = 3;
 console.log(num**2);
+console.log(num**4);
