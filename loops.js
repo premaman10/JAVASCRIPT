@@ -14,8 +14,15 @@
 
 
 //for loop
-let total = 0;
-for(let i=0;i<=10;i++){
-    total = total+i;
-}
-console.log("sum of value of i is",total);
+// let total = 0;
+// for(let i=0;i<=10;i++){
+//     total = total+i;
+// }
+// console.log("sum of value of i is",total);
+
+//break
+
+
+
+
+//continue
