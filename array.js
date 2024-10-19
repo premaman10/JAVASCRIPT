@@ -7,7 +7,7 @@ fruits[1]="papaya"
 console.log(fruits);//it print new array after adding papaya
 
 console.log(typeof fruits);//it will print object
-console.log(Array.isArray(fruits));//true
+console.log(Array.isArray(fruits));//true will be printed
 
 
 //PUSH AND POP(faster than shift)
@@ -70,4 +70,4 @@ console.log(nerr);//left over elements will be added in nerr
 //array destructuring with default value
 const abcd = ["val1","val2","val3","val4"];
 let[vi1,vi2,vi3,vi4,vi5 = "default"] = abcd
-console.log(v1,v2,v3,v4,v5);//it will print all the elements of
+console.log(v1,v2,v3,v4,v5);//it will print all the elements of array
