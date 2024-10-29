@@ -31,10 +31,7 @@ const arr = [{
 //     console.log(user.age)
     
 // }
-const[{name:username,age},{age:user2,ag,gen2},{gender:user3gender}]=arr;
+const[{name:username,age},,{gender:user3gender}]=arr;
 console.log(username);
 console.log(age);
-console.log(user2);
-console.log(ag);
-console.log(gen2);
 console.log(user3gender);
