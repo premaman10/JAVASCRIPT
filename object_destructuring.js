@@ -22,14 +22,19 @@ const arr = [{
     gender: "male",
 },{
     name:"Sita",
-    age :25,
+    age :5,
     gender: "female",
 }]
-for(let user of arr){
-    console.log(user);
-    console.log(user.name);
-    console.log(user.age)
+// for(let user of arr){
+//     console.log(user);
+//     console.log(user.name);
+//     console.log(user.age)
     
-}
-const[{name},{age},{gender}]=user1;
-console.log(user1);
+// }
+const[{name:username,age},{age:user2,ag,gen2},{gender:user3gender}]=arr;
+console.log(username);
+console.log(age);
+console.log(user2);
+console.log(ag);
+console.log(gen2);
+console.log(user3gender);
