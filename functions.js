@@ -8,10 +8,10 @@ function twosumfour(){
     console.log(2+4);
 }
 // twosumfour();
-function threesumfive(){
-    return 3+5;
-}
-console.log(threesumfive());
+// function threesumfive(){
+//     return 3+5;
+// }
+// console.log(threesumfive());
 function sumtwonumbers(n1,n2){//parametrixed function
  console.log(n1+n2);
 }
@@ -43,3 +43,15 @@ function targetfinder(arr,target){
     }
 }
 targetfinder([2,3,4,5,6,7,8],10);
+
+
+//FUNCTION EXPRESSION
+const sing = function(){
+    console.log("la la la la la");
+}
+sing();
+
+const threesumfive = function(){
+    return 3+5;
+}
+threesumfive();
