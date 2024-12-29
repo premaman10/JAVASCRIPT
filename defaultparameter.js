@@ -22,7 +22,7 @@ console.log(ans);
 function myfun(a,b,...c){
     console.log(`a is ${a}`);
     console.log(`b is ${b}`);
-    console.log(`c is ${c}`);
+    console.log(`c is ${c}`);//it will print 56789
 }
 myfun(3,4,5,6,7,8,9);
 
