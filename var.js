@@ -1,4 +1,4 @@
-"use strict"
+" use strict"
 var firstname = "Prem Aman";
 console.log(firstname);
 firstname="Anu";
