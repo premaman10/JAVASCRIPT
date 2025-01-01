@@ -5,3 +5,4 @@ console.log(firstname);
 //last index = length - 1
 console.log(firstname.length);
 console.log(firstname[2]);
+console.lof(firstname[firstname.length]);
