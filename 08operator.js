@@ -1,4 +1,4 @@
-//typeof operator
+//typeof operator(it tells us the dattype of the variable)
 // let age = 22;
 // let fname = "prem";
 // console.log(typeof fname);

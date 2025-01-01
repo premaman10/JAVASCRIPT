@@ -12,4 +12,4 @@ console.log(firstname.toUpperCase());//conevert the alphabates to uppercase
 console.log(firstname.toLowerCase());//convert the alphabates to lowercase
 // Slice
 let newstr = firstname.slice(0,4);
-console.log(newstr)
+console.log(newstr)//Prem
