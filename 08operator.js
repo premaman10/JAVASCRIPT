@@ -6,7 +6,7 @@
 
 
 //conversion of number to string
-// age = age+" ";
+// age = age+" ";just add the empty string it will convert number to stirng
 // console.log(typeof(age));
 
 
