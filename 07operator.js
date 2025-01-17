@@ -8,14 +8,20 @@
 //conversion of number to string
 // age = age+" ";just add the empty string it will convert number to stirng
 // console.log(typeof(age));
+//let ag =18;
+//ag = String(ag);
+// console.log(typeof(ag)); it will  be  a string
 
 
 //conversion of string to number
 // let mystr = +"34"
 // console.log(typeof mystr);
+//let  ag = "18";
+//ag = Number(ag);
+// console.log(typeof(ag));it will be a number
 
 
-//string concatenation
+//string concatenation(aadding two strings)
 // let firstname = "Prem";
 // let lastname = "Aman";
 // let fullname = firstname+" "+lastname;
@@ -82,33 +88,33 @@
 
 
 //SWITCH CASE
-let day = +prompt("enter day's number");
-switch(day){
-    case 0:
-        console.log("Sunday");
-        break;
-    case 1:
-        console.log("Monday");
-        break;
-    case 2:
-        console.log("Tuesday");
-        break;
-    case 3:
-        console.log("Wednesday");
-        break;
-    case 4:
-        console.log("Thursday");
-        break;
-    case 5:
-        console.log("Friday");
-        break;
-    case 6:
-        console.log("Saturday");
-        break;
-    case 7:
-        console.log("Invalid day");
-        break;
-}
+// let day = +prompt("enter day's number");
+// switch(day){
+//     case 0:
+//         console.log("Sunday");
+//         break;
+//     case 1:
+//         console.log("Monday");
+//         break;
+//     case 2:
+//         console.log("Tuesday");
+//         break;
+//     case 3:
+//         console.log("Wednesday");
+//         break;
+//     case 4:
+//         console.log("Thursday");
+//         break;
+//     case 5:
+//         console.log("Friday");
+//         break;
+//     case 6:
+//         console.log("Saturday");
+//         break;
+//     case 7:
+//         console.log("Invalid day");
+//         break;
+// }
 
 
 

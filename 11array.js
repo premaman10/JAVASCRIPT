@@ -26,7 +26,7 @@ console.log(fruits);
 
 
 //clone of array
-let arr1 = ["item1","item2"];
+let arr1 = ["item1","item2","item3"];
 let arr2 = arr1.slice(0);
 console.log(arr2);
 
