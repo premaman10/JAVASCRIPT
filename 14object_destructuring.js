@@ -10,7 +10,7 @@ const{bandname, famoussong,year:v3}=band;
 console.log(bandname);
 console.log(famoussong);
 console.log(v3);
-
+ 
 //object inside array
 const arr = [{
     name: "John",
