@@ -212,7 +212,7 @@ console.log(oddnumbe);
 //value, start , end
 
 const myarr = new Array(10).fill(0);
-console.log(myarr);
+console.log(myarr);//this will fill the array
 const myarray = [1,2,3,,4,5,6,7,8,9];
 myarray.fill(0,2,5);
 console.log(myarray);
