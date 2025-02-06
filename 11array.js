@@ -221,11 +221,38 @@
 
 
 //splice
+//start delete insert
 
 
 const myarr = ['item1','item2','item3','item4'];
 //delete
-myarr.splice(1, 1);
+const deleteditem = myarr.splice(1, 2);
+console.log(deleteditem);
 //insert
-myarr.splice(1,0,'inserted intem');
+myarr.splice(1,2,'inserted intem','inserted item2');
 console.log(myarr);
+
+
+
+
+//iterable
+//jispa hm for of loop lagaskte hain
+//string array are iterable
+const firstname = "prem aman"
+for(char of firstname){
+    console.log(char);
+}
+const arr = [1,2,3,4,5,6,7,8,9];
+for(num of arr){
+     console.log(num);
+}
+
+//objects are not iterable
+
+///array like object
+//jinka pas length property hoti hai
+//aur jinko hm index se acces kr skta hai
+//example string
+const str = "prem aman";
+console.log(str.length);
+console.log(str[6]);
