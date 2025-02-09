@@ -89,3 +89,16 @@ user1.about.apply(user2,["guitar","the local train"]);
 //bind
  const funct = abc.bind(user1,"guitar","the local train");
  funct();
+
+//in case of arrow function this is one level up
+
+
+//shorter syntax
+const user3 = {
+    firstname : "prem",
+    age: 18,
+    about(){
+        console.log("I am prem");
+    }
+}
+user3.about();
